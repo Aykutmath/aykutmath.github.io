@@ -1,10 +1,10 @@
 ---
-title: "Teaching experience 2"
+title: "Math 458: Numerical Methods"
 collection: teaching
 type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
+permalink: /teaching/2024-spring-teaching-1
 venue: "University 1, Department"
-date: 2015-01-01
+date: 2024-01-01
 location: "City, Country"
 ---
 
