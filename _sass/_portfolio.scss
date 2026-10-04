@@ -1,0 +1,17 @@
+// Small additions to the existing Academic Pages theme.
+.portfolio-headline { font-size: 1.25em; font-weight: 600; line-height: 1.45; color: #245b75; }
+.research-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1.25rem 0 2rem; }
+.research-card { border: 1px solid #d9e2e8; border-top: 3px solid #245b75; border-radius: 6px; padding: 1.2rem; }
+.page__content .research-card h3 { margin-top: 0; font-size: 1em; line-height: 1.5; }
+.page__content .research-card p { font-size: .9em; }
+.research-card p:last-child { margin-bottom: 0; }
+.page__content a { overflow-wrap: anywhere; text-underline-offset: .15em; }
+@media (max-width: 640px) { .research-grid { grid-template-columns: 1fr; } .portfolio-headline { font-size: 1.1em; } }
+@media print { .research-grid { display: block; } .research-card { break-inside: avoid; margin-bottom: 1rem; } }
+
+.portfolio-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 2rem; }
+.portfolio-actions .btn { margin: 0; background: #245b75; color: #fff; }
+.portfolio-actions .btn:hover, .portfolio-actions .btn:focus { background: #173e51; }
+.project-list { display: grid; gap: 1rem; margin: 1.25rem 0 2rem; }
+.page__content .skill-chips { display: flex; flex-wrap: wrap; gap: .5rem; padding: 0; list-style: none; }
+.skill-chips li { padding: .35rem .7rem; border: 1px solid #d9e2e8; border-radius: 4px; font-size: .8em; line-height: 1.4; margin: 0; }
